@@ -1,0 +1,56 @@
+.sidebar__info {
+  display: flex;
+  flex: 0.35;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.before__contact {
+  margin-bottom: 70px;
+  margin-right: 50px;
+}
+
+.before__contact > h3 {
+  font-size: medium;
+}
+
+.before__contact > p {
+  margin-top: 10px;
+  font-weight: 50;
+  margin-top: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.contact__information {
+  justify-content: space-evenly;
+}
+
+.contact__information > p {
+  margin-top: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.contact__information > h3 {
+  font-size: medium;
+}
+
+.social__media {
+  margin-top: 10px;
+}
+
+.social__media > h3 {
+  margin-top: 20px;
+  font-size: medium;
+}
+
+.social__media > .MuiSvgIcon-root {
+  margin-top: 20px;
+  margin-left: 10px;
+  justify-content: flex-start;
+}
+
+.social__media > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+}
