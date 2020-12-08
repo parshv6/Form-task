@@ -1,4 +1,3 @@
-import { Button } from '@material-ui/core'
 import React from 'react'
 import "./Form.css"
 
@@ -6,17 +5,15 @@ function Form() {
     return (
         <div className="sidebar__form">
         <form className="form__submit">
-            <h2><strong>Please fulfill the form</strong></h2>
-            <h3>Your Name (required)</h3>
+            <h2><strong>Please fulfill the form below.</strong></h2>
+            <label className="input__field" >Your Name(required)</label>
             <input type="text" className="input__form" />
-            <h3>Your Email(required)</h3>
+            <label className="input__field" >Your Email(required)</label>
             <input type="email" className="input__form"/>
-            <h3 className="your__message">Your Message</h3>
+            <label className="input__field" >Your Message</label>
             <textarea className="form__textarea"></textarea>
-            <Button variant="contained" className="send__button" color="primary">Send</Button>
+            <input type="submit" value="Send" className="input__send"></input>
         </form>
-            
-            
         </div>
     )
 }

@@ -17,32 +17,34 @@ function Info() {
         <div className="sidebar__info">
             <div className="before__contact">
                 <h3>BEFORE CONTACTING US</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                <p className="info">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
             </div>
             <div className="contact__information">
                 <h3>CONTACT INFORMATION</h3>
-                <p>184 Main Collins Street West Victoria 8007 Australia</p>
-                <p><IconButton><PhoneIcon/></IconButton>  1800-222-222</p>
-                <p><IconButton><EmailIcon /></IconButton> contact@versatilewptheme.com</p>
-                <p><IconButton><ScheduleIcon/></IconButton>  Everyday 9:00-17:00</p>
+                <div className="contact__p">
+                <p >184 Main Collins Street West Victoria 8007 Australia</p>
+                <p ><IconButton><PhoneIcon className="info"/></IconButton>  1800-222-222</p>
+                <p ><IconButton><EmailIcon  className="info"/></IconButton> contact@versatilewptheme.com</p>
+                <p ><IconButton><ScheduleIcon className="info"/></IconButton>  Everyday 9:00-17:00</p>
+                </div>
             </div>
             <div className="social__media">
                <h3>SOCIAL MEDIA</h3>
                <IconButton>
-               <FacebookIcon/>
+               <FacebookIcon className="social__icon"/>
                </IconButton>
                <IconButton>
-               <TwitterIcon/>
+               <TwitterIcon className="social__icon"/>
                </IconButton>
                <IconButton>
-               <LanguageIcon/>
+               <LanguageIcon className="social__icon"/>
                </IconButton>
                <IconButton>
-               <PinterestIcon/>
+               <PinterestIcon className="social__icon"/>
                </IconButton>
-               <i className="fab fa-google-plus"></i>
+               <i className="fab fa-google-plus" className="social__icon"></i>
                <IconButton>
-               <InstagramIcon/>
+               <InstagramIcon className="social__icon"/>
                </IconButton>
             </div>
         </div>

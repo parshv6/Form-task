@@ -6,20 +6,22 @@
 }
 
 .before__contact {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   margin-right: 50px;
 }
 
 .before__contact > h3 {
   font-size: medium;
+  color: #393e46;
+  font-weight: normal;
 }
 
 .before__contact > p {
-  margin-top: 10px;
   font-weight: 50;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: small;
   color: gray;
+  margin-left: 3px;
 }
 
 .contact__information {
@@ -27,13 +29,16 @@
 }
 
 .contact__information > p {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: small;
   color: gray;
+  margin-right: 20px;
 }
 
 .contact__information > h3 {
   font-size: medium;
+  color: #393e46;
+  font-weight: normal;
 }
 
 .social__media {
@@ -43,6 +48,8 @@
 .social__media > h3 {
   margin-top: 20px;
   font-size: medium;
+  color: #393e46;
+  font-weight: normal;
 }
 
 .social__media > .MuiSvgIcon-root {
@@ -53,4 +60,21 @@
 
 .social__media > .MuiSvgIcon-root:hover {
   cursor: pointer;
+}
+
+.info {
+  color: black !important;
+  margin-left: -10px;
+}
+
+.contact__p {
+  margin-top: 20px;
+  font-size: small;
+  color: gray;
+  margin-right: 20px;
+}
+
+.social__icon {
+  color: black !important;
+  margin-left: -10px;
 }
